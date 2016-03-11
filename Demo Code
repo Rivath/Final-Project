@@ -39,7 +39,7 @@ Adafruit_RGBLCDShield lcd = Adafruit_RGBLCDShield();
 
 #define WHITE 0x7 //For background color control on RGB LCDs
 
-File myFile;
+File myFile; //Sets the file we will be using to store the SD card info
 String entry = "Lets Demo!"; //Sets what will be written to the .txt file
 int count = entry.length(); //Records the length of the entry
 String level; //Used to control display from button commands 
